@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import post from './axios.learning/post.learn';
 
 function App() {
+  post();
   return (
     <div className="App">
       <header className="App-header">
@@ -9,14 +11,6 @@ function App() {
         <p>
           Modified text
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
